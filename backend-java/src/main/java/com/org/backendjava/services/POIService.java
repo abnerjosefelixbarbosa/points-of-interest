@@ -5,6 +5,7 @@ import com.org.backendjava.dtos.responses.POIResponse;
 import com.org.backendjava.entities.POI;
 import com.org.backendjava.repositories.POIRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.support.PagedListHolder;
 import org.springframework.data.domain.*;
 import org.springframework.stereotype.Service;
 
@@ -40,7 +41,7 @@ public class POIService {
                 .map(POIResponse::new)
                 .toList();
 
-        return new PageImpl<POIResponse>(list);
+        return new PageImpl<POIResponse>(list, pageable, pageable.getPageSize());
     }
 
     private Double calculateDistance(double x1, double y1, double x2, double y2) {
