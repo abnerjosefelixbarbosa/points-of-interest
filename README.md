@@ -20,7 +20,7 @@
 
 ```bash
 # clone repository
-git clone https://github.com/abnerjosefelixbarbosa/challenge-back-end-hit.git
+git clone https://github.com/abnerjosefelixbarbosa/points-of-interest.git
 ```
 
 # Author
