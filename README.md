@@ -1,12 +1,12 @@
 # points-of-interest
 
-## About
+## about
 
 - This project is a resolution of the backend challenge promoted by repository: https://github.com/abnerjosefelixbarbosa/desafios/blob/master/points-of-interest/PROBLEM.md.
 
-# Project resource
+# project resource
 
-## Backend java
+## backend java
 
 - Java 17.
 - Spring boot.
@@ -16,14 +16,16 @@
 - Swegger 3.
 - H2 database.
 
-# Project execution
+# project execution
+
+- Use postman or swegger interface to test this API.
 
 ```bash
 # clone repository
 git clone https://github.com/abnerjosefelixbarbosa/points-of-interest.git
 ```
 
-# Author
+# author
 
 Abner José Felix Barbosa
 
